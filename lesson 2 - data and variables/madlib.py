@@ -3,14 +3,12 @@
 
 # Ask user for a name and save it in a variable
 name = input("what is your name?")
-
 # Ask user for an animal and save it in a variable
-
+animal = input("What is your favroite animal?")
 # Ask user for a colour and save it in a variable
-
+color = input("What is your favriote color?")
 # Print your madlib using the 3 variables above.
-print("my name is "+ name)
-
+print(name + "'s favriote animal is a " + color + " colored " + animal)
 # ----------------------------
 
 # EXTENSION
