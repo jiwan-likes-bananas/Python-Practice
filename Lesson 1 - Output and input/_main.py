@@ -1,3 +1,6 @@
-if 5 < 10:
-    print('Less than 10')
-    print('More than 10')
+guess = input('What’s the password?')
+print('Checking password is a match…')
+while guess != 'skibidi':
+    guess = input('Try again')
+    print('Checking password is a match…')
+input('Welcome!')
