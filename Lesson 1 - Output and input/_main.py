@@ -1,6 +1,3 @@
-guess = input('What’s the password?')
-print('Checking password is a match…')
-while guess != 'skibidi':
-    guess = input('Try again')
-    print('Checking password is a match…')
-input('Welcome!')
+import random
+shopping_list = ['apples','plums','pizza']
+print(shopping_list[random.randint(0,2)])
