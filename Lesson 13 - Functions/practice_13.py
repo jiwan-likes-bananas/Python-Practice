@@ -20,7 +20,10 @@ def calculate_area():
 
 
 # TODO ------->>>> Write a function here for calculating the circumference after getting length and width from user
-
+def calculate_circumference():
+    length = int(input{"What is the length?"})
+    width = int(input{"What is the width?"})
+    print(f"The circumference is {2 * length + width}")
 
 
 # Run the main program
