@@ -1,6 +1,6 @@
-guess = input('What’s the password?')
-print('Checking password is a match…')
-while guess != 'skibidi':
-    guess = input('Try again')
-    print('Checking password is a match…')
-input('Welcome!')
+user_input = 'idk'
+try:
+    num = int(user_input)
+    print(f'You picked {num}')
+except:
+	print(f'{user_input} is not a number!')
